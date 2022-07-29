@@ -16,9 +16,11 @@
   backface-visibility: hidden;
   outline: none;
   overflow: hidden;
+  
 }
 
 .glightbox-container.inactive {
+  /* display: flex; */
   display: none;
 }
 
@@ -408,6 +410,7 @@
 
 .glightbox-open {
   overflow: hidden;
+  border: #0f3d81 1px solid;
 }
 
 .gloader {
